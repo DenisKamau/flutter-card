@@ -61,26 +61,7 @@ class Home extends StatelessWidget {
                         color: Colors.teal.shade900,
                         fontWeight: FontWeight.bold),
                   ),
-                )
-                // Row(
-                //   children: <Widget>[
-                //     Icon(
-                //       Icons.phone,
-                //       color: Colors.teal,
-                //       size: 23.0,
-                //     ),
-                //     SizedBox(
-                //       width: 10.0,
-                //     ),
-                //     Text('+254 722 722 722',
-                //         style: TextStyle(
-                //             fontFamily: 'Source Sans Pro',
-                //             fontSize: 16.0,
-                //             color: Colors.teal.shade900,
-                //             fontWeight: FontWeight.bold))
-                //   ],
-                // ),
-                ),
+                )),
           ),
           Card(
             margin: EdgeInsets.symmetric(vertical: 8.0, horizontal: 25.0),
@@ -101,146 +82,10 @@ class Home extends StatelessWidget {
                         fontWeight: FontWeight.bold),
                   ),
                   dense: true,
-                )
-                // Row(children: <Widget>[
-                //   Icon(
-                //     Icons.email,
-                //     color: Colors.teal,
-                //     size: 23.0,
-                //   ),
-                //   SizedBox(
-                //     width: 10.0,
-                //   ),
-                //   Text(
-                //     'denokim55@gmail.com',
-                //     style: TextStyle(
-                //         fontFamily: 'Source Sans Pro',
-                //         fontSize: 16.0,
-                //         color: Colors.teal.shade900,
-                //         fontWeight: FontWeight.bold),
-                //   )
-                // ]
-                // ),
-                ),
+                )),
           )
         ],
-      )
-          // Row(
-          //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          //     crossAxisAlignment: CrossAxisAlignment.stretch,
-          //     children: <Widget>[
-          //       Container(
-          //         width: 100.0,
-          //         color: Colors.red,
-          //       ),
-          //       Container(
-          //         child: Column(
-          //           mainAxisAlignment: MainAxisAlignment.center,
-          //           children: <Widget>[
-          //             Container(
-          //               height: 100.0,
-          //               width: 100.0,
-          //               color: Colors.yellow,
-          //             ),
-          //             Container(
-          //               height: 100.0,
-          //               width: 100.0,
-          //               color: Colors.green,
-          //             ),
-          //           ],
-          //         ),
-          //       ),
-          //       Container(
-          //         width: 100.0,
-          //         color: Colors.blue,
-          //       ),
-          //     ]),
-          //     child: Column(
-          //   mainAxisSize: MainAxisSize.min,
-          //   crossAxisAlignment: CrossAxisAlignment.stretch,
-          //   // mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          //   children: <Widget>[
-          //     Wrap(
-          //         spacing: 22.0,
-          //         alignment: WrapAlignment.start,
-          //         runSpacing: 10.0,
-          //         children: <Widget>[
-          //           Container(
-          //             color: Colors.white,
-          //             child: Text(
-          //               'Container 1',
-          //               // style: TextStyle(
-          //               //   fontSize: 12.0,
-          //               //   fontWeight: FontWeight.bold,
-          //               //   color: Colors.red,
-          //               // ),
-          //             ),
-          //             // padding: EdgeInsets.all(20),
-          //             // margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
-          //           ),
-          //           // SizedBox(
-          //           //   width: 20.0,
-          //           // ),
-          //           Container(
-          //             color: Colors.blue,
-          //             child: Text('Container 2'),
-          //             // padding: EdgeInsets.all(20),
-          //             // margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
-          //           ),
-          //           // SizedBox(
-          //           //   width: 20.0,
-          //           // ),
-          //           Container(
-          //             color: Colors.green,
-          //             child: Text('Container 3'),
-          //             // padding: EdgeInsets.all(20),
-          //             // margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
-          //           ),
-          //           Container(
-          //             color: Colors.green,
-          //             child: Text('Container 3'),
-          //             // padding: EdgeInsets.all(20),
-          //             // margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
-          //           ),
-          //           Container(
-          //             color: Colors.green,
-          //             child: Text('Container 3'),
-          //             // padding: EdgeInsets.all(20),
-          //             // margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
-          //           ),
-          //           Container(
-          //             color: Colors.green,
-          //             child: Text('Container 3'),
-          //             // padding: EdgeInsets.all(20),
-          //             // margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
-          //           ),
-          //         ])
-
-          //     // This is the bottom container that causes the others to stretch
-          //     // Container(
-          //     //   width: double.infinity,
-          //     // ),
-          //     // Row(
-          //     //   children: <Widget>[
-          //     //     Container(
-          //     //       color: Colors.white,
-          //     //       child: Text('Container 3'),
-          //     //       padding: EdgeInsets.all(20),
-          //     //       margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 0.0),
-          //     //     ),
-          //     //     Container(
-          //     //       color: Colors.white,
-          //     //       child: Text('Container 4'),
-          //     //       padding: EdgeInsets.all(20),
-          //     //       margin:
-          //     //           EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
-          //     //     ),
-          //     //   ],
-          //     // ),
-          //   ],
-          // )
-          // ),
-          ),
+      )),
     ));
   }
 }
